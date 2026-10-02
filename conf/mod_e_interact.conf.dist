@@ -1,0 +1,43 @@
+[worldserver]
+
+########################################
+# mod-e-interact configuration
+########################################
+#
+#    EInteract.Enable
+#        Description: Answer requests from the EInteract client addon.
+#                     When disabled, the addon reports that the server module is missing
+#                     and only its client-side features (quest dialogs, loot rolls) work.
+#        Default:     1 - Enabled
+#                     0 - Disabled
+#
+
+EInteract.Enable = 1
+
+#
+#    EInteract.Loot
+#        Description: Loot the nearest corpse (money and every item the player may take).
+#        Default:     1 - Enabled
+#                     0 - Disabled
+#
+
+EInteract.Loot = 1
+
+#
+#    EInteract.Gather
+#        Description: Skin, herb, mine or salvage the nearest looted corpse.
+#        Default:     1 - Enabled
+#                     0 - Disabled
+#
+
+EInteract.Gather = 1
+
+#
+#    EInteract.Talk
+#        Description: Open the gossip, quest, vendor, trainer, bank or auction window
+#                     of the nearest NPC.
+#        Default:     1 - Enabled
+#                     0 - Disabled
+#
+
+EInteract.Talk = 1

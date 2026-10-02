@@ -1,0 +1,7 @@
+## Interface: 30300
+## Title: EInteract
+## Version: 1.0.0
+## Notes: One key (E) to loot, gather and talk to the nearest NPC, page through quest dialogs and roll Need. Looting, gathering and talking need the mod-e-interact server module.
+## Notes-ruRU: Одна клавиша (E): лут, сбор и разговор с ближайшим NPC, листание квестовых диалогов и «Нужно» в розыгрыше. Для лута, сбора и NPC нужен серверный модуль mod-e-interact.
+## SavedVariables: EInteractDB
+EInteract.lua
